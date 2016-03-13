@@ -11,3 +11,5 @@ RUN sed -i "s|\$CODENAME|${CODENAME}|g" /etc/apt/sources.list \
  && apt-get update \
  && DEBIAN_FRONTEND=noninteractive apt-get upgrade -y \
  && DEBIAN_FRONTEND=noninteractive apt-get install -y build-essential devscripts 
+
+
