@@ -1,8 +1,8 @@
-FROM lqb10/ubuntu-bootstrap:trusty-i386
+FROM lqb10/ubuntu-bootstrap:trusty-amd64
 
 ARG DIST="ubuntu"
 ARG CODENAME="trusty"
-ARG ARCH="i386"
+ARG ARCH="amd64"
 
 MAINTAINER lqb <lqb@gmx.net>
 
